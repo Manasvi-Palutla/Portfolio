@@ -193,7 +193,8 @@ export const education = [
     school: "University of Central Florida",
     date: "Aug 2024 - May 2026",
     grade: "4 CGPA",
-    desc: "I am currently pursuing my Masters in Computer Science with a focus on Algorithms, Machine Learning, and Artificial Intelligence.Engaged in hands-on projects and advanced coursework.My coursework includes in-depth studies of data structures and algorithms, advanced computer architecture, natural language processing, and machine learning. ",
+    desc: "I am currently pursuing my Masters in Computer Science with a focus on Algorithms, Machine Learning, and Artificial Intelligence.Engaged in hands-on projects and advanced coursework. My coursework includes in-depth studies of Machine Learning, NLP, Design and Analysis of Algorithms",
+    degree: "Masters- Computer Science",
   },
   {
     id: 1,
