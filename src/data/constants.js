@@ -193,8 +193,7 @@ export const education = [
     school: "University of Central Florida",
     date: "Aug 2024 - May 2026",
     grade: "4 CGPA",
-    desc: "I had pursued my  Bachelor's degree in Computer Science and Engineering. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
-    degree: "Masters in  Computer Science",
+    desc: "I am currently pursuing my Masters in Computer Science with a focus on Algorithms, Machine Learning, and Artificial Intelligence.Engaged in hands-on projects and advanced coursework.My coursework includes in-depth studies of data structures and algorithms, advanced computer architecture, natural language processing, and machine learning. ",
   },
   {
     id: 1,
