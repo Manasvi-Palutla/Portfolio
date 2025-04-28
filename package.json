@@ -1,7 +1,7 @@
 {
   "name": "Manasvi-portfolio",
   "version": "0.1.0",
-  "homepage": " https://manasvi-palutla.github.io/Portfolio/",
+  "homepage": "https://manasvi-palutla.github.io/Portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
