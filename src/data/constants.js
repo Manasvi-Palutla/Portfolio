@@ -27,16 +27,15 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
+       
+      {
+        name: "C#",
+        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      },
       {
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      
-      
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
       {
         name: "CSS",
@@ -44,9 +43,9 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
       {
-        name: "Bootstrap",
+        name: "HTML",
         image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
     ],
   },
