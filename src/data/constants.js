@@ -103,6 +103,12 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
       {
+        name: "Azure",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9f4y6AUx2JxptsC7CZkUX8uVCw4tNH0e6vQ&s",
+      },
+
+      {
         name: "JMeter",
         image:
           "https://jmeter.apache.org/images/logo.svg",
@@ -230,6 +236,7 @@ export const projects = [
     category: "machine learning",
     github: "https://github.com/Manasvi-Palutla/Diabetes_Health_Indicator.git", // Add your GitHub repo link if available
   },
+  /*
   {
     id: 2,
     title: "Digital Outpass Management System",
@@ -240,7 +247,7 @@ export const projects = [
     tags: ["Python", "Django", "JavaScript", "SQLite", "REST API", "Authentication"],
     category: "web app",
     github: "https://github.com/Manasvi-Palutla/", // Add your GitHub repo link if available
-  },
+  },*/
 ];
 
 export const TimeLineData = [
