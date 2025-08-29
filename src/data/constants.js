@@ -8,8 +8,8 @@ export const Bio = {
   description:
     "Hello there!  I’m a software developer who loves turning ideas into real-world solutions. 💻 Currently chasing my Master’s in Computer Science at the University of Central Florida 🎓, I’m all about blending creativity with code to make cool things happen. Always ready to learn, build, and connect  let's team up and create something awesome! 🚀",
   github: "https://github.com/Manasvi-Palutla",
-  resume:
-    "https://drive.google.com/file/d/1nJoFNSFfwFLM0rouR-AsYZMmqLoAT_D_/view",
+  /*resume:
+    "https://drive.google.com/file/d/1nJoFNSFfwFLM0rouR-AsYZMmqLoAT_D_/view",*/
   linkedin: "https://www.linkedin.com/in/manasvi-palutla-9b9083329/",
 };
 
@@ -142,6 +142,20 @@ export const skills = [
   },
 ];
 export const experiences = [
+  {
+    id: 0,
+    img: "https://seeklogo.com/images/U/ucf-university-of-central-florida-logo-503B602697-seeklogo.com.png", 
+    role: "Graduate Teaching Assistat",
+    company: "University of Central Florida",
+    date: "August 2025 – Present",
+    desc: "Graduate Teaching Assistant for Computer Science II at UCF, where I lead recitation sessions and guide students through concepts in data structures, algorithms, and problem-solving using Java",
+    skills: [
+      "Java",
+      "Data Structures & Algorithms",
+      "OOPs",
+      "Debugging",
+    ],
+  },
   {
     id: 0,
     img: "https://cdn.brandfetch.io/id3zF7Le7Q/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1727711196640", // Or a better logo if you have one
