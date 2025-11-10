@@ -58,9 +58,9 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
-        name: "Django",
+        name: "Spring Boot",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg",
+          "https://commons.wikimedia.org/wiki/File:Spring_Boot.svg",
       },
       {
         name: "NumPy",
@@ -68,9 +68,9 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg",
       },
       {
-        name: "OpenCV",
+        name: "TensorFlow",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg",
+          "https://uxwing.com/google-tensorflow-icon/",
       },
       {
         name: "PyTorch",
@@ -98,6 +98,21 @@ export const skills = [
           "https://www.jenkins.io/images/logos/jenkins/jenkins.svg",
       },
       {
+        name: "Docker",
+        image:
+          "https://www.stickpng.com/img/icons-logos-emojis/tech-companies/docker-full-logo",
+      },
+      {
+        name: "Kubernetes",
+        image:
+          "https://commons.wikimedia.org/wiki/File:Kubernetes_logo_without_workmark.svg",
+      },
+      {
+        name: "Grafana",
+        image:
+          "https://lynqmes.com/app/grafana/",
+      },
+      {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -106,13 +121,7 @@ export const skills = [
         name: "Azure",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9f4y6AUx2JxptsC7CZkUX8uVCw4tNH0e6vQ&s",
-      },
-
-      {
-        name: "JMeter",
-        image:
-          "https://jmeter.apache.org/images/logo.svg",
-      },
+      }
     ],
   },
   {
@@ -157,51 +166,34 @@ export const experiences = [
     ],
   },
   {
-    id: 0,
+    id: 1,
     img: "https://cdn.brandfetch.io/id3zF7Le7Q/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1727711196640", // Or a better logo if you have one
     role: "Software Engineer I",
     company: "NCR Voyix",
-    date: "September 2023 – July 2024",
-    desc: "Worked on automation and CI/CD enhancements for the NPP platform, improving efficiency and reliability across workflows.",
+    date: "August 2023 – July 2024",
+    desc: "At NCR Voyix, I worked on the Payments Processor platform, where I developed and optimized scalable Java REST APIs, built real-time performance dashboards with Grafana, and enhanced CI/CD testing pipelines using JUnit and Postman. My work helped improve API responsiveness, reliability, and development efficiency across large-scale distributed systems.",
     skills: [
-      "Bash",
-      "Jenkins",
-      "CI/CD",
-      "Automation",
-      "Database Integration",
-      "Shell Scripting"
-    ],
-  },
-  {
-    id: 1,
-    img: "https://upload.wikimedia.org/wikipedia/commons/b/b1/NCR_Corporation_logo.svg", // Same for NCR Corporation
-    role: "Software Engineer",
-    company: "NCR Corporation",
-    date: "July 2023 – September 2024",
-    desc: "Managed system log processes, collaborated with teams to identify performance issues, and contributed to SLA-compliant solutions.",
-    skills: [
-      "Log Management",
-      "System Monitoring",
-      "Performance Optimization",
-      "Team Collaboration",
-      "Debugging",
-      "SLA Adherence"
+      "Java",
+      "Spring Boot",
+      "SQL",
+      "Git",
+      "Agile/Scrum"
     ],
   },
   {
     id: 2,
     img: "https://upload.wikimedia.org/wikipedia/commons/b/b1/NCR_Corporation_logo.svg", // Same for NCR Corporation
-    role: "Software Engineer Intern",
+    role: "Software Engineer",
     company: "NCR Corporation",
-    date: "Feb 2023 – July 2023",
-    desc: "Managed system log processes, collaborated with teams to identify performance issues, and contributed to SLA-compliant solutions.",
+    date: "Aug 2022 – Jul 2023",
+    desc: "At NCR Corporation, I automated performance monitoring and deployment workflows by developing a Python-based SQL log parser, integrating it into Jenkins pipelines, and creating Grafana dashboards with real-time latency alerts improving detection speed, deployment consistency, and overall system reliability.",
     skills: [
-      "Log Management",
-      "System Monitoring",
-      "Performance Optimization",
-      "Team Collaboration",
-      "Debugging",
-      "SLA Adherence"
+      "Python",
+      "SQL",
+      "Jenkins",
+      "Docker",
+      "Grafana",
+      "Linux",
     ],
   },
 ];
@@ -250,18 +242,18 @@ export const projects = [
     category: "machine learning",
     github: "https://github.com/Manasvi-Palutla/Diabetes_Health_Indicator.git", // Add your GitHub repo link if available
   },
-  /*
+  
   {
     id: 2,
     title: "Digital Outpass Management System",
     date: "2022",
     description:
-      "Streamlined the student outpass issuance process with a Django-based web application. Developed secure RESTful APIs with role-based authentication. Integrated SQLite with foreign key constraints and validation for enhanced data integrity, reducing administrative errors and improving operational efficiency.",
+      "Built a full-stack Digital Outpass System using React, Spring Boot, and MySQL to simplify student pass requests and staff approvals with secure logins and real-time tracking.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKpBMVGinGsNLeOgBYrYQiYIvauXbCar6O5w&s", // Change if you have your own image
-    tags: ["Python", "Django", "JavaScript", "SQLite", "REST API", "Authentication"],
+    tags: ["Java", "Spring Boot", "React", "REST API", "SQLite"],
     category: "web app",
     github: "https://github.com/Manasvi-Palutla/", // Add your GitHub repo link if available
-  },*/
+  },
 ];
 
 export const TimeLineData = [
